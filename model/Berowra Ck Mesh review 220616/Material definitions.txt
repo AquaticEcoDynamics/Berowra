@@ -1,0 +1,14 @@
+!!!!!!!!!
+!Material
+!!!!!!!!!
+Set Mat == 51
+Read GIS Mat == ..\model\gis\2d_mat_BER_R.shp
+material == 51
+bottom roughness == 0.016	! water body
+end material
+material == 52
+bottom roughness == 0.035	! wetland
+end material
+material == 53
+bottom roughness == 0.05	! elsewhere
+end material
