@@ -306,6 +306,7 @@ for var = plot_array%start_plot_ID:end_plot_ID
     mkdir([savedir,'eps/']);
     loadname = varname{var};
     
+    ylab = '';
     
     if plotmodel
         
